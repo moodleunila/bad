@@ -45,7 +45,7 @@ a {
   Elements
   ================================================== */
 .btn {
-  background-color: #199EB8;
+  background-color: #CAB276;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 800;
   color: #fff;
@@ -69,7 +69,7 @@ a {
 
 .btn-ghost:hover {
   background-color: #fff;
-  color: #199EB8;
+  color: #CAB276;
 }
 
 section {
@@ -97,7 +97,7 @@ a:hover {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  background: #199EB8;
+  background: #CAB276;
   color: #fff;
   text-align: center;
   font-size: 24px;
@@ -162,16 +162,15 @@ a:hover {
   Header Styling
 ================================================== */
 #header {
-  background: #199EB8;
-  height: 70px;
+  background: #CAB276;
+  height: 100px;
 }
-
 #header #logo {
   margin: 14px 25px 0 0;
 }
 
 #header #logo h1 {
-  font-size: 36px;
+  font-size: 70px;
   margin: 0;
   padding: 2px 0;
   line-height: 1;
@@ -182,13 +181,13 @@ a:hover {
 }
 
 #header #logo h1 a, #header #logo h1 a:hover {
-  color: #fff;
+  color: black;
 }
 
 #header #logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 90px;
 }
 
 @media (max-width: 768px) {
@@ -323,7 +322,7 @@ a:hover {
 }
 
 .nav-menu ul li:hover {
-  background: #199EB8;
+  background: #CAB276;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -429,11 +428,11 @@ a:hover {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #199EB8;
+  color: #CAB276;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #199EB8;
+  color: #CAB276;
 }
 
 #mobile-body-overly {
@@ -474,7 +473,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-weight: 500;
   color: #666;
-  border: 6px solid #199EB8;
+  border: 6px solid #CAB276;
   border-radius: 50%;
   padding: 55px 25px 0 25px;
   position: relative;
@@ -523,7 +522,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .features h2 {
-  color: #199EB8;
+  color: #CAB276;
 }
 
 .feature-col {
@@ -544,7 +543,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 70px;
   height: 70px;
   margin-bottom: 15px;
-  background: #199EB8;
+  background: #CAB276;
   color: #fff;
   font-size: 24px;
   text-align: center;
@@ -554,7 +553,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .feature-col h3 {
-  color: #199EB8;
+  color: #CAB276;
 }
 
 .feature-col p {
@@ -567,7 +566,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   Call-to-action Styling
   ================================================== */
 .cta {
-  background-color: #199EB8;
+  background-color: #CAB276;
   padding: 25px 0;
 }
 
@@ -599,7 +598,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .portfolio h2 {
-  color: #199EB8;
+  color: #CAB276;
   margin-bottom: 25px;
 }
 
@@ -665,7 +664,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   Team Styling
   ================================================== */
 .team h2 {
-  color: #199EB8;
+  color: #CAB276;
 }
 
 .team .col-sm-3 {
@@ -713,7 +712,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .team .card:hover .card-title-wrap {
-  background-color: #199EB8;
+  background-color: #CAB276;
 }
 
 .team .card:hover .card-title-wrap .card-title, .team .card:hover .card-title-wrap .card-text {
@@ -770,12 +769,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact h2 {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
-  color: #199EB8;
+  color: #CAB276;
 }
 
 #contact .info i {
   font-size: 32px;
-  color: #199EB8;
+  color: #CAB276;
   float: left;
 }
 
@@ -785,8 +784,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #sendmessage {
-  color: #199EB8;
-  border: 1px solid #199EB8;
+  color: #CAB276;
+  border: 1px solid #CAB276;
   display: none;
   text-align: center;
   padding: 15px;
@@ -823,7 +822,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #199EB8;
+  background: #CAB276;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -888,7 +887,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .site-footer .bottom .list-inline a:hover {
-  color: #199EB8;
+  color: #CAB276;
 }
 
 .site-footer .credits {
@@ -896,7 +895,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .site-footer .credits a {
-  color: #199EB8;
+  color: #CAB276;
 }
 
 /* ==================================================
@@ -977,4 +976,126 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding-left: 30px;
     padding-right: 30px;
   }
+}
+
+
+/*UNILA*/
+
+.texto-dorado{
+    color: #CAB276;
+}
+
+.texto-blanco{
+    color: #FFF;
+}
+
+.caja-dorada{
+    background-color: #CAB276;
+    color: white;
+}
+
+.caja-azul{
+    background-color: #091f92;
+    color: white;
+}
+
+.justificado{
+    text-align: justify;
+}
+
+.texto-dorado-fuerte{
+  color: #A79159;
+}
+
+.texto-blanco{
+  color: #FFF;
+}
+
+.caja-dorada{
+    background-color: #CAB276;
+}
+
+.justificado{
+    text-align: justify;
+}
+
+.negritas{
+    font-weight: bold;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.recuadro{
+    padding: 20px !important;
+}
+
+.color-header{
+    background: linear-gradient(white , black);
+}
+
+.cursiva{
+    text-decoration: italic;
+}
+
+.caja-gris{
+    background-color: #7b7b7b;
+}
+
+.caja-gris-clara{
+    background-color: #e9ecef;
+}
+
+.caja-dorada-opaca{
+    background-color: #e6d4aa;
+}
+
+.fizquierda{
+    float: left;
+}
+
+.fondo-paleta-1{
+    background-color: #CBBAA3;    
+}
+
+.fondo-paleta-2{
+    background-color: #DDD2C3;   
+}
+
+.fondo-paleta-3{
+    background-color: #F6F2EE;
+}
+
+.fondo-paleta-4{
+    background-color: #725533;
+    color: #F6F2EE;
+}
+
+.fondo-paleta-5{
+    background-color: #5C090A;
+    color: #FFF;
+}
+
+.fondo-paleta-6{
+    background-color: #f4cb89;
+
+}
+
+.fondo-paleta-7{
+    background-color: #7F6000;
+    color: #FFF;
+}
+
+.fondo-paleta-8{
+    background-color: #0E4866;
+    color: #FFF;
+}
+
+.seccion-foto-ms{
+    width: 100%;    
+}
+
+.fondo-dorado-leve{
+  background-color:  #EEE7D4;
 }
