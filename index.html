@@ -87,14 +87,15 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <br>
-          <li><a href="#presentacion">Inicio</a></li>
           <li class="menu-has-children"><a href="#programa">Acerca de </a>
             <ul>
               <li><a href="#programa">Programa </a></li>
               <li><a href="#modelo">Modelo educativo</a></li>
+              <li><a href="#propedeuticos">Cursos propedéuticos</a></li>
               <li><a href="#plan">Plan de estudios</a></li>
               <li><a href="#habilidades">Habilidades</a></li>
               <li><a href="#requerimientos">Requerimientos técnicos</a></li>
+              <li><a href="#soporte">Soporte técnico</a></li>
             </ul>
           </li>
           <li class="menu-has-children"><a href="">Convocatoria</a>
@@ -107,12 +108,24 @@
           <li><a href="#preguntas">Preguntas frecuentes</a></li>
           <li><a href="#recursos">Recursos educativos</a></li>
           <li><a href="#contact">Contacto</a></li>
+          <li><a href="" data-toggle="modal" data-target="#exampleModalLong">Entrar</a></li>
         </ul>
       </nav>
       <!-- #nav-menu-container -->
 
       <nav class="nav social-nav pull-right d-none d-lg-inline">
-        <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
+        <a href="https://twitter.com/unilaedumx" target="_blank">
+          <i class="fa fa-twitter"></i>
+        </a> 
+        <a href="https://www.facebook.com/UnilaEduMx" target="_blank">
+          <i class="fa fa-facebook"></i>
+        </a> 
+        <a href="https://www.instagram.com/unilaedumx/" target="_blank">
+          <i class="fa fa-instagram"></i>
+        </a> 
+        <a href="https://www.youtube.com/user/UniversidadLatinaMx" target="_blank">
+          <i class="fa fa-youtube"></i>
+        </a>
       </nav>
     </div>
   </header>
@@ -265,27 +278,60 @@
   </section>
 
   <section id="propedeuticos" class="fondo-paleta-8">
-    <div class="container">
+    <div class="container" id="propedeuticos">
       <div class="row">
         <div class="col-lg-12 col-sm-12 text-center">
           <br>
-          <h2 style="color: #A79159;">
+          <h2 style="color: #FFF;">
               Cursos propedéuticos
           </h2>
-          <p class="justificado">
+          <p class="justificado" style="color: #FFF;">
             El desarrollo de habilidades cognitivas, metacognitivas, metodológicas, informáticas, comunicativas y matemáticas es uno de los principales objetivos de B@UNAM . Por ello, es necesario que al iniciar el estudio de las asignaturas, los alumnos cuenten con una base elemental de conocimientos y habilidades necesarios para abordar sus contenidos.<br><br>
 
             Con la finalidad de garantizar que todos los alumnos cuenten con esta base, uno de los requisitos obligatorios para presentar el examen de selección para el ingreso al Bachillerato a Distancia es haber cursado y acreditado los tres propedéuticos:<br><br>
-            <span class="texto-negritas">Estrategias de aprendizaje a distancia<br>
-            Lectura y redacción<br><br>
-            Matemáticas</span><br><br>
-            En cada uno de estos cursos, realizarás actividades con el apoyo de un asesor (profesor en línea), que además de resolver sus dudas, revisará, calificará y retroalimentará tus ejercicios y trabajos. El asesor te acompañará constantemente durante el proceso de aprendizaje.<br> 
-            El curso de Estrategias de Aprendizaje a Distancia aborda aspectos didácticos, metodológicos y organizacionales sobre el proceso de aprendizaje. <br><br>
-
-            El curso de Lectura y Redacción te permitirá incrementar tu vocabulario, comprender con exactitud lo que lees y escribir con claridad diversos tipos de textos.<br><br>
-
-            El curso de Matemáticas te permitirá recordar los elementos de Aritmética, Álgebra y Geometría plana necesarios para iniciar el bachillerato.
           </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-sm-12 text-center">
+          <div class="card-block">
+            <div class="card" style="width: 100%;">
+              <img class="card-img-top" src="img/unila/infografias/estrategias.jpg" alt="Card image cap" width="100%;"/>
+              <div class="card-body">
+                <center>
+                  <h6 class="card-title texto-dorado">Estrategias de Aprendizaje a Distancia</h6>                 
+                  <button type="button" data-placement="bottom" class="btn btn-lg btn-info" data-toggle="popover" title="Descripción" data-content="Aborda aspectos didácticos, metodológicos y organizacionales sobre el proceso de aprendizaje">ver</button>
+                </center>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 text-center">
+          <div class="card-block">
+            <div class="card" style="width: 100%;">
+              <img class="card-img-top" src="img/unila/infografias/lectura.jpg" alt="Card image cap" width="100%;">
+              <div class="card-body">
+                <center>
+                  <h6 class="card-title texto-dorado">Lectura y Redacción</h6>           
+                  <button type="button" class="btn btn-lg btn-info caja-centrado" data-toggle="popover" title="Descripción" data-placement="bottom" data-content="Te permitirá incrementar tu vocabulario, comprender con exactitud lo que lees y escribir con claridad diversos tipos de textos">ver</button>
+                </center>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 text-center">
+          <div class="card-block">
+            <div class="card" style="width: 100%;">
+              <img class="card-img-top" src="img/unila/infografias/mat.jpg" alt="Card image cap" width="98%;">
+              <div class="card-body">
+                <center>
+                  <h6 class="card-title texto-dorado">Matemáticas</h6>
+                  <button type="button" class="btn btn-lg btn-info" data-placement="bottom" data-toggle="popover" title="Descripción" data-content="Te permitirá recordar los elementos de Aritmética, Álgebra y Geometría plana necesarios para iniciar el 
+                  bachillerato">ver</button>
+                </center>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -824,14 +870,37 @@
       </div>
     </div>
   </section>
-  <!-- /Team -->
-  <!-- @component: footer -->
+  
+  <section class="fondo-paleta-8" id="soporte">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-xs-12">
+          <br>
+          <h2 class="section-title centrado" style="color: #FFF;">Soporte técnico</h2>
+          <p class="justificado texto-blanco">
+            Durante el tiempo en que estés participando en alguno de los cursos, además de la asesoría académica y el apoyo del tutor, contarás con el soporte técnico necesario para solucionar dudas sobre el acceso al curso, el manejo de sus herramientas y servicios, la descarga e impresión de documentos o alguna otra dificultad técnica que te impida realizar adecuadamente las actividades.<br><br>
+
+            A través del soporte técnico podrás también reportar cualquier falla que detectes.<br><br>
+
+            Para obtener asesoría técnica o reportar una falla deberás ponerte en contacto con nosotros a través del correo electrónico cualquier día de la semana, en horario abierto y recibirás respuesta en un período no mayor de 24 horas. La dirección a la que deberás escribir es: contactanos 
+          </p>
+          <h4 class="text-center centrado">donaji_naranjo@cuaed.unam.mx</h4>
+          <p class="justificado texto-blanco">
+            Si lo consideras muy necesario, puedes comunicarte telefónicamente con nosotros para recibir asesoría paso a paso en tiempo real de lunes a viernes de las 10:00 a las 19:00 hrs. (hora de la Cd. de México). Los datos son los siguientes:
+          </p>
+          <h4 class="text-center centrado">Mtra.  Donaji Naranjo<br>5622-8805<br>5622-8806</h4>
+
+        </div>
+      </div>
+    </div>
+  </section>
 
   <section id="contact">
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
-          <h2 class="section-title">Contact Us</h2>
+          <br>
+          <h2 class="section-title">Contáctanos</h2>
         </div>
       </div>
 
@@ -840,7 +909,7 @@
           <div class="info">
             <div>
               <i class="fa fa-map-marker"></i>
-              <p>A108 Adam Street<br>New York, NY 535022</p>
+              <p>Pedro Henríquez Ureña 173,<br>Col. Los Reyes Del. Coyoacán, México DF.</p>
             </div>
 
             <div>
@@ -850,7 +919,7 @@
 
             <div>
               <i class="fa fa-phone"></i>
-              <p>+1 5589 55488 55s</p>
+              <p> (55) 9171 9670</p>
             </div>
 
           </div>
@@ -858,29 +927,36 @@
 
         <div class="col-lg-5 col-md-8">
           <div class="form">
-            <div id="sendmessage">Your message has been sent. Thank you!</div>
+            <div id="sendmessage">Tu mensaje ha sido enviado correctamente</div>
             <div id="errormessage"></div>
             <form action="" method="post" role="form" class="contactForm">
               <div class="form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                 <div class="validation"></div>
               </div>
               <div class="form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <input type="email" class="form-control" name="email" id="email" placeholder="E-mail" data-rule="email" data-msg="Please enter a valid email" />
                 <div class="validation"></div>
               </div>
               <div class="form-group">
                 <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                 <div class="validation"></div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit">Enviar</button></div>
             </form>
           </div>
         </div>
+
+        <div class="row">
+          <div class="col-sm-4 col-xs-12">           
+          </div>
+          <div class="col-sm-4 col-xs-12">
+            <br>
+            <img src="img/unila/infografias/esr.png" width="100%">
+          </div>
+          <div class="col-sm-4 col-xs-12">
+          </div>
+      </div>
 
       </div>
     </div>
@@ -891,9 +967,9 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-6 col-xs-12 text-lg-left text-center">
-            <p class="copyright-text">
-              © BELL Theme
+          <div class="col-lg-12 col-xs-12 text-lg-left text-center">
+            <p class="copyright-text text-center">
+              © 2018 Universidad Latina. Todos los derechos reservados.
             </p>
             <div class="credits">
               <!--
@@ -902,38 +978,8 @@
                 Licensing information: https://bootstrapmade.com/license/
                 Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Bell
               -->
-             Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
             </div>
           </div>
-
-          <div class="col-lg-6 col-xs-12 text-lg-right text-center">
-            <ul class="list-inline">
-              <li class="list-inline-item">
-                <a href="index.html">Home</a>
-              </li>
-
-              <li class="list-inline-item">
-                <a href="#about">About Us</a>
-              </li>
-
-              <li class="list-inline-item">
-                <a href="#features">Features</a>
-              </li>
-
-              <li class="list-inline-item">
-                <a href="#portfolio">Portfolio</a>
-              </li>
-
-              <li class="list-inline-item">
-                <a href="#team">Team</a>
-              </li>
-
-              <li class="list-inline-item">
-                <a href="#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
-
         </div>
       </div>
     </div>
@@ -961,5 +1007,43 @@
 
   <script src="contactform/contactform.js"></script>
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Bachillerato a Distancia</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="card">
+        <div class="card-header p-b-0 encabezado">
+          <h5 class="card-title">
+            <i class="fa fa-sign-in" aria-hidden="true"></i> 
+            Acceso
+          </h5>
+        </div>
+        <div class="card-block">
+          <br>
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control" id="uid" name="uid" placeholder="usuario">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" id="pwd" name="pwd" placeholder="contraseña">
+            </div>
+            <button type="submit" class="btn btn-success">Acceder</button>
+          </form>
+        </div>
+      </div> 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>
