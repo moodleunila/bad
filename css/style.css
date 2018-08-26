@@ -54,7 +54,7 @@ a {
 }
 
 .btn:hover {
-  background-color: #E04F00;
+  background-color: #000;
   color: #fff;
 }
 
@@ -114,7 +114,7 @@ a:hover {
 .hero {
   display: table;
   position: relative;
-  background-image: url(../img/cover.jpg);
+  background-image: url(../img/unila/infografias/header.png);
   background-size: cover;
   padding: 150px 0;
   color: #fff;
@@ -163,7 +163,7 @@ a:hover {
 ================================================== */
 #header {
   background: #CAB276;
-  height: 100px;
+  height: 90px;
 }
 #header #logo {
   margin: 14px 25px 0 0;
@@ -187,7 +187,7 @@ a:hover {
 #header #logo img {
   padding: 0;
   margin: 0;
-  max-height: 90px;
+  max-height: 81px;
 }
 
 @media (max-width: 768px) {
@@ -488,7 +488,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: -15px;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-size: 18px;
-  background-color: #E04F00;
+  background-color: #000;
   position: absolute;
   border-radius: 50%;
   font-weight: 700;
