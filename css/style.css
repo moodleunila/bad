@@ -126,7 +126,7 @@ a:hover {
   content: '';
   z-index: 0;
   position: absolute;
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 0, 0.40);
   width: 100%;
   height: 100%;
   left: 0;
@@ -148,7 +148,7 @@ a:hover {
 }
 
 .hero-brand:hover {
-  opacity: .75;
+  opacity: .55;
 }
 
 .tagline {
@@ -1068,7 +1068,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .fondo-paleta-4{
-    background-color: #725533;
+    background-color: #a7427f;
     color: #F6F2EE;
 }
 
@@ -1083,14 +1083,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .fondo-paleta-7{
-    background-color: #7F6000;
+    background-color: #e4982c;
     color: #FFF;
 }
 
 .fondo-paleta-8{
-    background-color: #0E4866;
+    background-color: #3ba6b1;
     color: #FFF;
 }
+.fondo-paleta-9{
+    background-color: #24b28d;
+    color: #FFF;
+}
+.fondo-paleta-10{
+    background-color: #dd4a4d;
+    color: #FFF;
+}
+    
 
 .seccion-foto-ms{
     width: 100%;    
