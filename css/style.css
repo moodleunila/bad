@@ -1099,7 +1099,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     background-color: #dd4a4d;
     color: #FFF;
 }
-    
+
+.fondo-paleta-12{
+    background-color: #ae72b4;
+    color: #FFF;  
+}    
 
 .seccion-foto-ms{
     width: 100%;    
